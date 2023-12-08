@@ -6,9 +6,7 @@ ex. <p class="paragraf1 test>"*/
     --dark-color: #2E2F42;
     --text-font-family: 'Roboto', sans-serif;
 }
-* {
-    box-sizing: border-box;
-  }
+
 body{
     color: #434455;
     background-color:var(--WHITE,#FFFFFFFF) ;
@@ -16,11 +14,7 @@ body{
     font-family: 'Roboto', sans-serif; 
 }
 /* header of the page */
-.page-header{
-    background: var(--WHITE, #ffffff);
-    display: flex;
-    flex-wrap: wrap;
-}
+
 /* navigation section */
 
 /* logo */
@@ -40,15 +34,11 @@ body{
 }
 .link{
     text-decoration: none;
-    display: flex;
-    
+   
 }
 /* list links */
 .list{
     list-style: none;
-    display: flex;
-    gap: 10px;
- flex-wrap: wrap;
 }
 .list-link{
     color: var(--dark-color);
